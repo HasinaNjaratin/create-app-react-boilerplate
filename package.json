@@ -1,0 +1,36 @@
+{
+  "name": "create-app-react-boilerplate",
+  "version": "1.0.0",
+  "description": "Setup a react web application simply using webpack, redux and code quality control tools like eslint, stylint and prettier.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasinaNjaratin/create-app-react-boilerplate.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "HasinaNjaratin <hasina.mailto@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HasinaNjaratin/create-app-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/HasinaNjaratin/create-app-react-boilerplate#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
